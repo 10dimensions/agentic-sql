@@ -28,16 +28,16 @@ class OllamaLLM:
         schema_text = self._schema_to_text(schema)
 
         prompt = f"""
-Database schema
-
-{schema_text}
-
-Question
-
-{question}
-
-Return SQL only.
-"""
+            Database schema
+            
+            {schema_text}
+            
+            Question
+            
+            {question}
+            
+            Return SQL only.
+            """
 
         response = ollama.chat(
             model=self.model,
