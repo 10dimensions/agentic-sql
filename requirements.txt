@@ -1,0 +1,20 @@
+# Core database
+sqlalchemy>=2.0
+
+# LLM
+ollama>=0.5.0
+
+# SQL validation
+sqlglot>=25.0.0
+
+# Data models
+pydantic>=2.7
+
+# CLI
+typer>=0.12
+
+# HTTP (used internally if needed)
+httpx>=0.28
+
+# Pretty printing
+rich>=13.7
