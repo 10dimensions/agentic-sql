@@ -5,7 +5,7 @@ from agent.validator import SQLValidator
 from agent.executor import SQLExecutor
 
 DB_PATH = "sample.db"
-MODEL = "qwen3"
+MODEL = "qwen3:0.6b"
 
 
 def main():
